@@ -1,0 +1,39 @@
+ul{
+  list-style: none;
+  padding-left:0;
+  padding-right: 1rem;
+}
+.blocks{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 25px 30px;
+    
+  }
+  .item {
+     border:1px solid black;
+    text-align:center;
+    
+    border-radius:5px;
+    
+  }
+
+  .header li{
+    border:1px solid rgba(14, 14, 128, 0.493);
+    margin:1rem 0rem;
+    padding:1rem;
+    
+  }
+
+#TeamA-ul-list >li{
+  background-color: rgba(0, 110, 255, 0.281);
+}
+#TeamB-ul-list >li{
+  background-color: rgba(255, 0, 0, 0.281);
+}
+  
